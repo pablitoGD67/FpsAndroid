@@ -8,5 +8,4 @@ jobs:
   build:
     uses: geode-sdk/geode/.github/workflows/build.yml@main
     with:
-      platforms: ["android64"]
-      
+      platforms: "android64"
