@@ -1,0 +1,19 @@
+{
+  "geode": "4.0.0",
+  "version": "1.0.0",
+  "id": "pablo.fps_android",
+  "name": "FPS Android",
+  "developer": "Pablo",
+  "description": "Elimina el límite de FPS en Geometry Dash Android de 64-bit.",
+  "settings": {
+    "fps-target": {
+      "name": "Límite de FPS",
+      "description": "Establece los FPS deseados (ej. 120, 240, 360).",
+      "type": "float",
+      "default": 240.0,
+      "min": 60.0,
+      "max": 480.0,
+      "step": 10.0
+    }
+  }
+}
